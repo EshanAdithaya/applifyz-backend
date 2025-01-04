@@ -7,6 +7,9 @@ import { lastValueFrom } from 'rxjs';
 
 @Injectable()
 export class ServerMonitorService {
+  saveThresholds(threshold: ThresholdDTO) {
+      throw new Error('Method not implemented.');
+  }
   private readonly logger = new Logger(ServerMonitorService.name);
 
   constructor(

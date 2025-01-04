@@ -1,3 +1,5 @@
+import { ApiProperty } from "@nestjs/swagger";
+
 export class ThresholdDTO {
     @ApiProperty({ description: 'Server ID to set thresholds for' })
     serverId: string;
