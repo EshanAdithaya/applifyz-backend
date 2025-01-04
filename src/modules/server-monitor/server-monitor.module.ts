@@ -4,7 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ServerMonitorController } from './server-monitor.controller';
 import { ServerMonitorService } from './server-monitor.service';
-import { ThresholdEntity } from './entities/threshold.entity.ts';
+import { ThresholdEntity } from './entities/threshold.entity';
 
 @Module({
   imports: [
